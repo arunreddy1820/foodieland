@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: 5vw;
+    height: 60px;
+}
+
+.logo{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Brush Script";
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-item{
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-icon{
+    height: 15px;
+    width: 15px;
+}
