@@ -1,0 +1,40 @@
+/* App.css */
+
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body font & background */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar mobile menu animation (optional) */
+nav div {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Restaurant card hover */
+div div div {
+  transition: box-shadow 0.2s;
+}
+div div div:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+/* Some spacing for main content */
+div {
+  padding: 0.5rem;
+}
